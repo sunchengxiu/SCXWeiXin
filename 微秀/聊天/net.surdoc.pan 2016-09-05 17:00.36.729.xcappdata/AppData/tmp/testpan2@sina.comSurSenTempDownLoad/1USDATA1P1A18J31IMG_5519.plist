@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>fileID</key>
+	<string>USDATA1P1A18J31</string>
+	<key>fileName</key>
+	<string>IMG_5519.JPG</string>
+	<key>fileReceiveSize</key>
+	<string>1</string>
+	<key>fileSize</key>
+	<string>289728</string>
+	<key>fileUrl</key>
+	<string>https://pan.surdoc.net/api/v1/files/security/USDATA1P1A18J31/content?parentId=USDATA1P1A12KLN</string>
+	<key>targetPath</key>
+	<string>/private/var/mobile/Containers/Data/Application/775F15DA-A763-4478-B63C-E8438CBBD1AA/tmp/testpan2@sina.comSurSenDownLoad/1USDATA1P1A18J31IMG_5519/IMG_5519.JPG</string>
+	<key>tempPath</key>
+	<string>/private/var/mobile/Containers/Data/Application/775F15DA-A763-4478-B63C-E8438CBBD1AA/tmp/testpan2@sina.comSurSenTempDownLoad/1USDATA1P1A18J31IMG_5519.JPG</string>
+</dict>
+</plist>

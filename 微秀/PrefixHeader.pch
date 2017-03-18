@@ -1,0 +1,82 @@
+//
+//  PrefixHeader.pch
+//  聊天
+//
+//  Created by 孙承秀 on 16/8/31.
+//  Copyright © 2016年 孙先森丶. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+#ifdef __OBJC__
+
+#ifdef __cplusplus
+#define SCX_KIT_EXTERN		extern "C" __attribute__((visibility ("default")))
+#else
+#define SCX_KIT_EXTERN	        extern __attribute__((visibility ("default")))
+#endif
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#pragma mark-类定义
+#import <MBProgressHUD.h>
+#import <PureLayout.h>
+#import <Masonry.h>
+#import "ViewController.h"
+#import "SCXLoginViewController.h"
+#import "MBProgressHUD+NHAddition.h"
+#import "SCXDefineClass.h"
+#import "SCXStorageManager.h"
+#import "UIView+Tap.h"
+#pragma mark-----------------------------------------------------------
+#pragma mark - key定义
+#define APPKEY @"sunchengxiu#zhanqitv"     //我的应用
+#define UserName @"123"       //应用里的用户名
+#define PassWord @"123456"        //用户名密码
+#define GroupId @"232045505041924532"       //群ID
+#define kClassKey   @"rootVCClassString"
+#define kTitleKey   @"title"
+#define kWeixinKey   @"weixin"
+#define kSignKey   @"sign"
+#define kLocationKey   @"location"
+#define kAlbumKey   @"album"
+#define kMoreKey   @"more"
+#define kDetailTitleKey   @"Detailtitle"
+#define kMyKey @"myKey"
+#define kImgKey     @"imageName"
+#define kSelImgKey  @"selectedImageName"
+#define kUser   @"userName"
+#define kLIYou   @"liyou"
+#define kAcceptButtonTitle @"buttonTitle"
+#define kUnReadCount @"kUnReadCount"
+#define PuchChar @"puchChat"
+#define IsShowCallInfo @"isShowCallInfo"
+#define CALL_NOTIFIGATION @"CALL_NOTIFIGATION"
+#import "聊天-swift.h"
+#pragma mark-----------------------------------------------------------
+
+
+#pragma mark--颜色定义
+#define SDColor(r, g, b, a) [UIColor colorWithRed:(r / 255.0) green:(g / 255.0) blue:(b / 255.0) alpha:a]
+
+#define Global_tintColor [UIColor colorWithRed:0 green:(190 / 255.0) blue:(12 / 255.0) alpha:1]
+
+#define Global_mainBackgroundColor SDColor(248, 248, 248, 1)
+
+#define TimeLineCellHighlightedColor [UIColor colorWithRed:92/255.0 green:140/255.0 blue:193/255.0 alpha:1.0]
+#define  kCommonBlackColor [UIColor colorWithRed:0.1 green:0.1 blue:0.1 alpha:1]
+#define  kBackgroundColor [UIColor colorWithRed:243/255.0 green:243/255.0 blue:243/255.0 alpha:1]
+
+#pragma mark-----------------------------------------------------------
+#define WeakSelf(weakSelf)  __weak __typeof(&*self)weakSelf = self;
+#define SCX_ScreenWidth [UIScreen mainScreen].bounds.size.width
+#define SCX_ScreenHeight [UIScreen mainScreen].bounds.size.height
+#define SCX_LargerMargin 10
+#define SCX_MinMargin 5
+#define SCX_IconWidth 50
+#define SCX_EdgeTop 15
+#define SCX_EdgeTLeft 15
+#define SCX_EdgeBottom 15
+#define SCX_EdgeRight 15
+
+#endif
+#endif /* PrefixHeader_pch */
